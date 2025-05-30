@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register TechCon 2024</title>
+  </head>
+  <body>
+    <header>
+      <h1>Register for TechCon 2024</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form>
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          aria-describedby="name-desc"
+        />
+        <p id="name-desc">Please enter your full name.</p>
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          aria-describedby="email-desc"
+        />
+        <p id="email-desc">
+          Enter a valid email address for registration confirmation.
+        </p>
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          aria-describedby="password-desc"
+        />
+        <p id="password-desc">Create a secure password for your account.</p>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+          aria-describedby="confirm-password-desc"
+        />
+        <p id="confirm-password-desc">Re-enter your password to confirm.</p>
+
+        <label>
+          <input
+            type="checkbox"
+            name="terms"
+            required
+            aria-describedby="terms-desc"
+          />
+          I agree to the <a href="terms.html">Terms and Conditions</a>
+        </label>
+        <p id="terms-desc">
+          You must agree to the terms and conditions to register.
+        </p>
+
+        <button type="submit">Register Now</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright © 2025 TechCon. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
